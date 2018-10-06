@@ -9,3 +9,22 @@
 # * * * * * command to execute
 33 * * * * * /bin/echo "hi Martin" | logger
 55 * * * * * /home/martinfreiwald/updating_webpage.sh
+
+
+
+
+###### Script for Crontab assignment  #######
+
+/var/www/html/index.html
+
+#!/bin/bash
+time=$(date)
+echo "<html><body><h1>hi there, the time is $time, how are you?</h1></body></html>" > /var/www/html/index.html
+
+ls -l
+
+./updating_webpage.sh
+
+pwd #copy path to script#
+/home.martinfreiwald/updating_webpage.sh
+

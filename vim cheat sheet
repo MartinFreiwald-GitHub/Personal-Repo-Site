@@ -1,0 +1,19 @@
+!/bin/bash
+Echo “hello world”
+
+i to insert into text editor
+Esc :wq
+Esc: syntax on
+Esc: :q!    (no save or write to close out)
+Esc: u    (undo)
+Esc:/html   (search for any word and n key for next)
+Esc: g (gg to move top to bottom of file)
+:100 (take cursor to line 100)
+:set  number (gives line numbers to page file)
+:s/hello/hi/g  (s for search replacing hello with hi and g is global)
+:split newfile2  (Use ctrl-w to switch directions between windows)
+
+
+How to edit the inside of a vim file ---  Vim /etc/httpd/conf.d/webpage.sh .
+
+

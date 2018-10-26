@@ -1,0 +1,57 @@
+
+
+    #  yum install python-pip
+    #  pip install virtualenv
+    #  pip install --upgrade pip
+
+    #  mkdir /opt/django
+    #  cd /opt/django
+
+    #  yum install python36
+    #  virtualenv -p python36 django
+    #  source django/bin/activate
+    #  python --version
+
+    #  django-admin --version
+    #  pip install django
+    #  ls
+    #  django-admin --version
+    #  django-admin startproject project1
+    
+    #  chown -R martin django
+    #  who
+    #  chown -R martinfreiwald708 django
+    #  chown -R martinfreiwald708 project1
+
+    #  cd /opt/django
+    #  source django/bin/activate
+   
+    #  source /opt/django/django/bin/activate
+    #  /opt/django/project1/manage.py runserver 0.0.0.0:8000&
+    #  grep -ir ALLOWED /opt/django/project1
+    #  vim /opt/django/project1/project1/settings.py
+    #Inside script here i add below the two strings to the vim editor#
+    #  ESC + /ALLOW
+    #  ALLOWED_HOSTS = ['35.239.81.103']
+
+
+    #  vim /opt/django/project1/project1
+    
+    #  grep -ir/opt/django/project1/project1
+    #  grep -ir ALLOWED /opt/django/project1/project1
+    
+    #  rm /opt/django/project1/project1/.settings.py.swp  #
+    
+    #  grep -ir ALLOWED /opt/django/project1/project1
+    
+    
+    
+    
+    
+    
+     #  django-admin startproject mysite
+    #  ls -l
+    
+    #  python manage.py runserver
+    #  cd mysite/
+    #  python manage.py runserver

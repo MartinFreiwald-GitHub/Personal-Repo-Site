@@ -1,0 +1,10 @@
+    
+    
+    # Sudo su
+     
+    #  mkdir /home/githubDIR/
+    #  cd /home/githubDIR/
+    #  touch .gitignore
+    #  git config --global core.excludesfile ~/.gitignore_global
+    
+    

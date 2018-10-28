@@ -1,0 +1,90 @@
+#sudo su
+
+#export EDITOR=vim
+#Ctrl+x ctrl+e  to put into vim
+
+#For file in  $(sl –p /etc/httpd.conf.d | grep –v / ); do
+#	Echo “backing up $file”
+
+
+
+#Ctrl+x ctrl+e  to put into vim
+#the $1 is first place holder for script to be the first thing to go through in the process#
+
+-------------------------------------------------------------------------------------------
+#!/bin/bash
+#for file in $( ls -p | grep -v / ); do echo "backing up $file" cp $file $file.orig; echo "backing up $file" cp $file $file.orig; done
+
+#/etc/password/
+#Sees the password names
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+#[root@apacheserver conf.d]# value=$(grep -ic "$1" /etc/password ); if [ $userpresence -z ]; then echo "I did'nt find $1" 
+#Ctrl+x ctrl+e  to put into vim
+#Paste into vim below#
+
+#!/bin/bash
+
+#value=$(grep -ic "$1" /etc/passwd )"
+#if [ $value -eq 1 ]; then
+#  echo "I found $1"
+#else
+#  echo "I did'nt find $1"
+#fi
+#:w passwd_username.sh
+
+#[root@apacheserver conf.d]#Ls *.sh
+#[root@apacheserver conf.d]#Vim passwd_username.sh
+
+               
+#vim User_match.sh
+
+#Paste into vim below#
+
+#!/bin/bash
+
+#value=$( grep -ic "$1" /etc/passwd )
+
+#if [ $value -gt 0 ]; then
+#  echo "I found $1 matches: $value"
+#else
+#  echo "I did'nt find $1"
+3fi
+
+#w: User_match.sh
+
+
+#chmod +x User_match.sh
+#./User_match.sh Martin
+#bash User_match.sh Martin
+#bash while_loop.sh /etc/password/ 
+
+
+#vim while_loop.sh
+
+#Paste into vim below#
+
+#!/bin/bash/
+#while IPS=’’ read –r line; || [[ -n “$line” ]]; do
+#  Echo “text read from file: $line
+#Done < “$1”
+#:w while_loop.sh
+
+
+
+#parses /etc/passwd
+
+#vim while_loop2.sh
+
+#Paste into vim below#
+
+#/bin/bash/
+#file="/etc/passwd"
+#while IFS=: read -r f1 f2 f3 f4 f5 f6 f7
+#do 
+   #display fields using f1, f2,...,f7
+#   printf 'Username: %s, Shell: %s, Home Dir: %s\n' "$f1" "$f7" "$f6"
+#done <"$file"
+
+#:w while_loop2.sh

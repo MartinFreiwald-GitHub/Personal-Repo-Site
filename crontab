@@ -15,6 +15,10 @@
 
 ###### Script for Crontab assignment  #######
 
+sudo su
+
+chmod= -x updating   #REMOVES EXECUTE PERMISSIONS FOR ALL CATAGORIES (OWNER/GROUP/OTHER) FROM UNIX AND LINUX ADMINISTRATORS HANDBOOK FITH EDITION #
+
 /var/www/html/index.html
 
 #!/bin/bash
